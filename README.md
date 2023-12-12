@@ -1,6 +1,8 @@
 # KeePass2 Updater
 
-This Bash script automates the process of updating KeePass 2.x to the latest version. It checks the installed version, compares it with the latest release on SourceForge, and offers to update if a newer version is available. Root privileges are required.
+This Bash script automates the process of updating KeePass 2.x to the latest version. It checks the installed version, compares it with the latest release on SourceForge, and offers to update if a newer version is available.  
+  
+**_Root privileges are required._**
 
 ## Prerequisites
 
@@ -13,13 +15,13 @@ This Bash script automates the process of updating KeePass 2.x to the latest ver
 
 2. Download the update script from this repository using `wget`:
 
-    ```bash
+    ```console
     wget https://raw.githubusercontent.com/some-git-user/KeePass2-Updater/main/update_keepass2.sh
     ```
 
 3. Make the script executable with the following command:
 
-    ```bash
+    ```console
     chmod +x update_keepass2.sh
     ```
 
