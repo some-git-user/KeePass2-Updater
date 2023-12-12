@@ -6,15 +6,26 @@ This Bash script automates the process of updating KeePass 2.x to the latest ver
 
 - Bash (Bourne Again SHell) is required to execute this script.
 - The script uses `curl`, `wget`, and `unzip` commands, so ensure they are installed on your system.
-  
+
+## Installation
+
+1. Open a terminal window.
+
+2. Download the update script from this repository using `wget`:
+
+    ```bash
+    wget https://raw.githubusercontent.com/some-git-user/KeePass2-Updater/main/update_keepass2.sh
+    ```
+
+3. Make the script executable with the following command:
+
+    ```bash
+    chmod +x update_keepass2.sh
+    ```
+
 ## Usage
 
-1. Make the script executable:
-
-```console
-    chmod +x update_keepass2.sh
-```
-2. Run the script:
+1. Run the script:
 
 ```console
     sudo ./update_keepass2.sh
